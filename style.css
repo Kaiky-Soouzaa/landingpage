@@ -1,0 +1,227 @@
+@import url('https://fonts.googleapis.com/css2?family=Passion+One&family=Raleway:wght@400;700;800;900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Sriracha&display=swap');
+
+*{
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  background-color: black;
+  
+}
+
+.banner{
+  width: 1349px;
+  height: 605px;
+  
+  background-image: url(banner.png);
+  
+  border-bottom: 1px solid #33A8DB;
+}
+
+.banner-content{
+  width: 100%;
+  text-align: center;
+  background-image: linear-gradient( to top, #00000000,  #33a9db2c, #000000);
+}
+
+.banner-content > h1{
+  text-transform: uppercase;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 900;
+  font-size: 40px;
+  line-height: 46.96px;
+  background-image: linear-gradient(to bottom, #33A8DB, #164a61);
+      -webkit-background-clip: text;
+      -moz-background-clip: text;
+      background-clip: text;
+      color: transparent;
+
+}
+
+.banner-content > p{
+  color: white;
+  padding: 40px;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+  list-style: 23.48px;
+}
+
+.banner-content > button{
+  color: #33A8DB;
+  border: 2px solid #33A8DB;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 18.78px;
+  padding: 20px 30px;
+  background-color: black;
+  font-size: 20px;
+  text-transform: uppercase;
+  font-family: 'Raleway', sans-serif;
+}
+
+.banner-content > button:hover{
+  opacity: 0.5;
+  transition: .25s;
+  cursor: pointer;
+}
+
+.logo{
+  padding: 30px;
+
+}
+
+.logo > img{
+  border: 20px solid rgba(0, 0, 0, 0);
+  border-radius: 50%;
+  padding: 5px 0px;
+  background-color: rgba(0, 0, 0, 0.281)
+}
+
+#course-content {
+  color: white;
+  padding: 100px;
+  
+  text-align: center;
+}
+
+#course-content > h2{
+  color: #33A8DB;
+  text-transform: uppercase;
+  padding-bottom: 30px;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 37.57px;
+  letter-spacing: 8px;
+}
+
+#course-content > p{
+  font-family: 'Raleway', sans-serif;
+  font-weight: 400;
+}
+
+.modules-list{
+  padding-top: 30px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.module{
+  background-color: #252525;
+  margin: 10px;
+  padding: 17px;
+  width: 535px;
+  border-radius: 57px;
+  justify-content: center;
+  align-items: center;
+  box-shadow: inset -2px 6px 4px 0 rgba(0, 0, 0, 0.466);
+  border: 1px solid #33A8DB;
+}
+
+.module > p{
+  font-family: 'Raleway', sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 18.78px;
+  color: white;
+}
+
+.module > p > span{
+  color: #33A8DB;
+  font-family: 'Raleway', sans-serif;
+}
+
+.module > p:hover{
+  opacity: 0.5;
+  transition: .25s;
+  cursor: pointer;
+  padding: 2px;
+}
+
+#transform-world{
+  background-image: url(woman-code.png);
+  background-position: center;
+  background-attachment: fixed;
+  background-size: cover;
+  height: 363px;
+  border-top: 1px solid #33A8DB;
+  border-bottom: 1px solid #33A8DB;
+  position: relative;
+}
+
+#transform-world > p{
+  height: 141px;
+  position: absolute;
+  top: 130px;
+  left: 50px;
+  color: white;
+  font-weight: 900;
+  font-size: 40px;
+  line-height: 46.96px;
+  font-family: 'Raleway', sans-serif;
+  font-size: 900;
+  text-transform: lowercase;
+  text-shadow:  3px 3px 0px  #33A8DB;
+}
+
+#professional-challenges{
+  margin-top: 70px;
+  text-align: center;
+}
+
+#professional-challenges > h2{
+  font-family: 'Raleway', sans-serif;
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 37.57px;
+  letter-spacing: 5px;
+  text-transform: uppercase;
+  color: #33A8DB;
+  padding-bottom: 50px;
+}
+
+#professional-challenges > P{
+  padding: 30px;
+  color: white;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 18.78px;
+  margin-bottom: 30px;
+}
+
+footer{
+  border-top: 1px solid #33A8DB;
+  border-bottom: 1px solid #33A8DB;
+  text-align: center;
+  height: 170px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-image: linear-gradient( to bottom, black, black , #33a9db25);
+}
+
+footer > p{
+  color: white;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 18.78px;
+  padding: 10px;
+}
+
+footer > p > a{
+  text-decoration: none;
+  
+}
+
+footer > p > a:hover{
+  text-decoration: underline;
+}
+
